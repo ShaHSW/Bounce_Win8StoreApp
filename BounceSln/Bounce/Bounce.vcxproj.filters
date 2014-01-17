@@ -1,0 +1,178 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Common">
+      <UniqueIdentifier>4e002981-076c-4267-8931-7bde4fe05e7d</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets">
+      <UniqueIdentifier>b4cf17fa-b729-49f1-8576-a6c8e6c926e0</UniqueIdentifier>
+    </Filter>
+    <Page Include="Common\StandardStyles.xaml">
+      <Filter>Common</Filter>
+    </Page>
+    <Image Include="Assets\Logo.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\SmallLogo.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\StoreLogo.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\SplashScreen.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Filter Include="strings">
+      <UniqueIdentifier>{e8b00ee0-5c3f-4e54-8b34-d64e0e108a77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="strings\zh-Hans">
+      <UniqueIdentifier>{9ca6062d-73c6-484a-994a-2532800cea5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="strings\en">
+      <UniqueIdentifier>{e15106b5-ca5c-4a2b-9a97-683dc24cf67c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DirectXBase.cpp" />
+    <ClCompile Include="App.xaml.cpp" />
+    <ClCompile Include="DirectXPage.xaml.cpp" />
+    <ClCompile Include="pch.cpp" />
+    <ClCompile Include="GamePlayRenderer.cpp" />
+    <ClCompile Include="BasicReaderWriter.cpp" />
+    <ClCompile Include="BasicLoader.cpp" />
+    <ClCompile Include="DDSTextureLoader.cpp" />
+    <ClCompile Include="AudioData.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="App.xaml.h" />
+    <ClInclude Include="DirectXPage.xaml.h" />
+    <ClInclude Include="BasicTimer.h" />
+    <ClInclude Include="DirectXHelper.h" />
+    <ClInclude Include="DirectXBase.h" />
+    <ClInclude Include="GamePlayRenderer.h" />
+    <ClInclude Include="BasicReaderWriter.h" />
+    <ClInclude Include="BasicLoader.h" />
+    <ClInclude Include="DDSTextureLoader.h" />
+    <ClInclude Include="BasicShapes.h" />
+    <ClInclude Include="BasicMath.h" />
+    <ClInclude Include="AudioData.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <AppxManifest Include="Package.appxmanifest" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Bounce_TemporaryKey.pfx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="DirectXPage.xaml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="WindowsStoreProxy.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <PRIResource Include="strings\en\resources.resw">
+      <Filter>strings\en</Filter>
+    </PRIResource>
+    <PRIResource Include="strings\zh-Hans\resources.resw">
+      <Filter>strings\zh-Hans</Filter>
+    </PRIResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Assets\blue_ball.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\red_ball.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\table.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\paddle.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\cd_1.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\cd_2.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\cd_3.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\cd_go.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\score_0.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\score_1.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\score_2.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\score_3.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\score_4.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\score_5.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\score_6.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\score_7.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\score_8.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\score_9.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\count_0.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\count_1.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\count_2.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\count_3.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\gameover.png">
+      <Filter>Assets</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="Assets\countdown.wav">
+      <Filter>Assets</Filter>
+    </Media>
+    <Media Include="Assets\gamestart.wav">
+      <Filter>Assets</Filter>
+    </Media>
+    <Media Include="Assets\gameover.wav">
+      <Filter>Assets</Filter>
+    </Media>
+    <Media Include="Assets\badhit.wav">
+      <Filter>Assets</Filter>
+    </Media>
+    <Media Include="Assets\goodhit.wav">
+      <Filter>Assets</Filter>
+    </Media>
+    <Media Include="Assets\newball.wav">
+      <Filter>Assets</Filter>
+    </Media>
+    <Media Include="Assets\wallbounce.wav">
+      <Filter>Assets</Filter>
+    </Media>
+  </ItemGroup>
+</Project>
