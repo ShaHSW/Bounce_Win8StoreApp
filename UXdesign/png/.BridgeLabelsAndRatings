@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+<bridgedata version='1'>
+	<ratings version='1'>
+		<item key='Design_SSS' rating='2'/>
+		<item key='Numbers' rating='2'/>
+		<item key='table' rating='2'/>
+		<item key='btn' rating='2'/>
+		<item key='bonus_ball' rating='2'/>
+		<item key='display' rating='2'/>
+	</ratings>
+</bridgedata>
